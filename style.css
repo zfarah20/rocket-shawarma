@@ -1,0 +1,50 @@
+
+#parent {
+    border: 4px dashed;
+    background-color: bisque;
+    border-radius: 10px;
+}
+#parent h1 {
+    display: block;
+    width: 68%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: Georgia;
+    font-size: 35px;
+}
+#parent p {
+    display: block;
+    color: rebeccapurple;
+    width: 18%;
+    float: right;
+    margin-top: 10px;
+}
+
+.menu h2:hover {
+    color: antiquewhite;
+}
+
+.menu p {
+    color: cadetblue;
+    text-decoration-style: double;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.menu {
+    background-color: azure;
+}
+
+.menu table th {
+    color: rgb(255, 123, 0);
+}
+
+.menu table tr {
+    background-color: antiquewhite;
+}
+
+.menu table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
